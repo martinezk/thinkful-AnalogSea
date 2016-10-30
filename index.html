@@ -9,19 +9,21 @@
 	<div class="logo-img">
 		<img src="images/logo.png">
 	</div>
-	<div class="signup-form">
-		<form action="/signup" method="post">
-		<h1>Sign Up</h1>
-		<label for="email">Email</label>
-		<input type="email" name="email">
-		<label for="password">Password</label>
-		<input type="password" name="password">		
-		<button type="submit">Sign Up</button>
-		<a href="/forgot-password/new">Forgot Password?</a>
+	<div class="main">
+		<form class="signup-form" action="/signup" method="post">
+			<fieldset>
+				<h1>Sign Up</h1>
+				<label for="email">Email</label>
+				<input type="email" name="email">
+				<label for="password">Password</label>
+				<input type="password" name="password">
+			</fieldset>	
+			<button type="submit">Sign Up</button>
+			<a href="/forgot-password/new"><p>Forgot Password?</p></a>
 		</form>
 	</div>
 	<div class="login-link">
-		<p>Already have an account? <a href="#">Login</a></p>
+		<p>Already have an account? <a class="white-link" href="#">Login</a></p>
 	</div>
 </body>
 </html>
