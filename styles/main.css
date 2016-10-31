@@ -29,31 +29,40 @@ img {
 	font-size: 30px;
 	text-align: center;
 	padding-top: 30px;
+	padding-bottom: 10px;
 }
 .signup-form label {
 	display: block;
-	font-size: 15px;
-	margin-top: 15px;
+	font-size: 17px;
+	margin-top: 25px;
 	margin-bottom: 15px;
 }
 .signup-form input, button{
-	height: 38px;
-	padding: 15px;
-	border: 2px solid #cec6c6;
-	border-radius: 3px;
+	height: 50px;
+	border-radius: 5px;
 }
 .signup-form input{
-	width: 269px;
-}
-.signup-form button{
 	width: 303px;
-	margin-top: 20px;
+	border: 2px solid #cec6c6;
+	padding-left: 8px;
 	font-size: 17px;
+}
+
+.signup-form button{
+	border: 2px solid #3CB371;
+	background-color: #3CB371;
+	width: 316px;
+	margin-top: 20px;	
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .signup-form p, a{
 	text-align: center;
 	color: gray;
-	margin: 10px;
+	margin: 4px;
 }
 /*bottom link*/
 .login-link p {
